@@ -11,12 +11,12 @@
     </div>
   <% end %>
 
-  <div class="field description-field">
+  <div class="field description-field form-inline">
     <%= form.label :description %>
     <%= form.text_field :description, id: :todo_item_description %>
   </div>
 
   <div class="actions">
-  <button type="button" name="CREATE A NEW TODO LIST" class="button-submit" ><%= form.submit %></button>
+  <button type="button" name="CREATE A NEW TODO LIST" class="btn btn-primary btn-lg disabled" ><%= form.submit %></button>
   </div>
 <% end %>
